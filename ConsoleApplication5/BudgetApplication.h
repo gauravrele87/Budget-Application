@@ -19,7 +19,7 @@ public:
 
 	BudgetApplication(){
 		ifstream inStream;
-		string file = "C:\\Users\\Gaurav\\Desktop\\CSC 340\\ConsoleApplication3\\ConsoleApplication3\\file.txt", line = "";
+		string file = "C:\\Users\\Gaurav\\Documents\\Visual Studio 2013\\Projects\\ConsoleApplication5\\ConsoleApplication5\\file.txt", line = "";
 		inStream.open(file, ios::out);
 		inStream >> budget;
 	}
